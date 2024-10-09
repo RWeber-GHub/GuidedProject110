@@ -414,7 +414,7 @@ h2:after{
 .customerhead{
     text-align: center;
     text-transform: uppercase;
-    margin-top:2.5%;
+    margin-top:1%;
     color:#fff
 }
 blockquote{
@@ -478,6 +478,7 @@ cite{
     display:flex;
     flex-direction: column;
     width: 25%;
+    box-shadow: 0 2px 2px #cac5c5;
 }
 .pricehead{
     text-align: center;
@@ -525,4 +526,122 @@ cite{
 .ben{
     padding:10px;
     font-size: 120%;
+}
+/* ---------------------------------------------begining of map and contact section------------------------------ */
+/* Styles for contact section */
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+.formhead{
+    margin-left:10%;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea {
+    height: 50px;
+}
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+*:focus {
+    outline: none;
+}
+.map-box {
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+iframe {
+    width: 100%;
+    height: 560px;
+    position: relative;
+    z-index: 0;
+}
+.form-box {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+    height: auto;
+    max-height: 90%;
+    padding-top: 1%
+    
+}
+.form-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+}
+
+.item-1 {
+    width: 33.3%;
+    justify-content: flex-start;
+}
+.item-2 {
+
+    justify-content: flex-end;
+    width: 66.7%;
+}
+footer{
+    padding-top:2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    display:flex;
+    flex-direction: column;
+    background-color:#333333;
+}
+a.linked{
+    text-decoration:none;
+    color:#666
+}
+a.linked:hover{
+    color:#cac5c5;
+}
+.linked{
+    font-size: 80%;
+    padding: 5px;
+}
+.micon{
+    font-size:120%;
+    padding: 10px;
+    color: #666;
+}
+#facebook:hover{
+    color:#1e6d9b;
+}
+#twitter:hover{
+    color:#17a3f4;
+}
+#google:hover{
+    color:#bc3e3e;
+}
+#instagram:hover{
+    color:#a03fab;
+}
+.contbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
 }
